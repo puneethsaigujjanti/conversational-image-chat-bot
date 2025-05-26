@@ -1,0 +1,73 @@
+header{
+    background-color:#EAEFEF;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#con{
+    text-align: center;
+    
+}
+h1{
+    color:#7F8CAA ;
+    margin: 0;
+    font-size: 24px;
+}
+footer{
+    background-color: #EAEFEF;
+    height: 60px;
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+button{
+    height: 35px;
+    width: 40px;
+    font-size: 16px;
+    border: none;
+    background-color: #7F8CAA;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#chat{
+    padding: 20px;
+    margin: 20px;
+    height: calc(100vh - 130px);
+    overflow-y: auto;
+    background-color: #fdfdfd;
+    
+}
+#space{
+    font-size: 16px;
+    margin:10px;
+}
+input[type="text"]
+{
+    left: 20px;
+    width: 40%;
+    height: 30px;
+    padding: 5px;
+}
+input[type="file"]
+{   
+    left: 20px ;
+    height:30px;
+}
+button:hover{
+    background-color: #657a95;
+}
+button i {
+    font-size: 16px;
+}
+#in{
+    width: 100%;
+}
